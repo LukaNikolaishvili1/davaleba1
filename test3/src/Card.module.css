@@ -1,0 +1,75 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    width: 220px;
+    margin: 16px;
+    box-shadow: 0 4px 8px yellosw(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .card {
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+  }
+  .card {
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+  }
+  .card h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .button {
+    background: linear-gradient(135deg, #72c0e1, #ff758c);
+  }
+  .filledStar {
+    color: yellow;
+  }
+  .rating {
+  margin: 8px 0;
+}
+
+.filledStar {
+  color: yellow;
+  font-size: 28px;
+}
+
+.emptyStar {
+  color: #ccc;
+  font-size: 28px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
